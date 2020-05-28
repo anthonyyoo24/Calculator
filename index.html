@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calculator__screen">0</div>
+      <div class="calculator__keypad">
+        <button data-key="-" class="key minus">
+          <svg data-key="-">
+            <use data-key="-" xlink:href="img/sprite.svg#icon-minus"></use>
+          </svg>
+        </button>
+        <button data-key="+" class="key plus">
+          <svg data-key="+">
+            <use data-key="+" xlink:href="img/sprite.svg#icon-plus"></use>
+          </svg>
+        </button>
+        <button data-key="/" class="key division">
+          <svg data-key="/">
+            <use data-key="/" xlink:href="img/sprite.svg#icon-divide"></use>
+          </svg>
+        </button>
+        <button data-key="*" class="key times">
+          <svg data-key="*">
+            <use data-key="*" xlink:href="img/sprite.svg#icon-times"></use>
+          </svg>
+        </button>
+        <button data-key="7" class="key seven">7</button>
+        <button data-key="8" class="key eight">8</button>
+        <button data-key="9" class="key nine">9</button>
+        <button data-key="delete" class="key delete">
+          <svg data-key="delete">
+            <use data-key="delete" xlink:href="img/sprite.svg#icon-delete"></use>
+          </svg>
+        </button>
+        <button data-key="4" class="key four">4</button>
+        <button data-key="5" class="key five">5</button>
+        <button data-key="6" class="key six">6</button>
+        <button data-key="1" class="key one">1</button>
+        <button data-key="2" class="key two">2</button>
+        <button data-key="3" class="key three">3</button>
+        <button data-key="=" class="key equals">
+          <svg data-key="=">
+            <use data-key="=" xlink:href="img/sprite.svg#icon-equals"></use>
+          </svg>
+        </button>
+        <button data-key="." class="key decimal">.</button>
+        <button data-key="0" class="key zero">0</button>
+        <button data-key="C" class="key clear">C</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
