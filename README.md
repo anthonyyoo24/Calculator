@@ -11,5 +11,5 @@
 ## Contact
 
 - Twitter: @anthonieyoo
-- Github: @anthonyyoo24
+- Github: https://github.com/anthonyyoo24
 - Email: anthony_yoo_24@hotmail.com
