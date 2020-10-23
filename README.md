@@ -1,6 +1,8 @@
 # Calculator
 
-> A simple calculator application that performs just the basic operations.
+A simple calculator application that performs just the basic operations.
+
+View the live demo at https://anthonyyoo24.github.io/Calculator/
 
 ## Built with
 
